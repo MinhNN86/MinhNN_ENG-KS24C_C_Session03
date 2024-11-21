@@ -5,7 +5,7 @@ int main() {
     char name[100]; 
     // nhập tên 
     printf("Hay nhap ten cua ban: ");
-    scanf("%s",name);
+    scanf("%s", &name);
     // in ra màn hình xin chào ( tên bạn nhập )
     printf("xin chao %s", name);
     return 0;
